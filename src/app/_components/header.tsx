@@ -36,7 +36,7 @@ const Header = () =>{
                                 Create an account
                             </Link>
                             <button className="text-slate-500 border-2 border-slate-200 py-1 px-2 rounded-md cursor-pointer ml-1">
-                                <svg className="h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                                <svg className="h-5 w-5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                                     <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
                                 </svg>
                             </button>
@@ -59,17 +59,19 @@ const Header = () =>{
                     <div className="relative py-2 w-1/3">
                         <span className="absolute inset-y-0 left-0 pl-3 flex items-center">
                             <svg className="h-5 w-5 text-gray-500" viewBox="0 0 24 24" fill="none">
-                                <path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                             </svg>
                         </span>
                         <input className="pl-10 py-2  w-full rounded-md border-2 border-gray-400 focus:border-gray-400 focus:ring focus:ring-gray-200 focus:ring-opacity-50" type="text" placeholder="Search" />
                     </div>
                     <div className="flex flex-col sm:flex-row">
                         <Link className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="/">Home</Link>
-                        <Link className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="/shop">Shop</Link>
-                        <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="#">Categories</a>
-                        <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="#">Contact</a>
-                        <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="#">About</a>
+                        <Link className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="/shop">Clothing</Link>
+                        <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="#">Footwear</a>
+                        <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="#">Accessories</a>
+                        <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="#">Electronics</a>
+                        <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="#">Beautify</a>
+                        <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="#">Home & Living</a>
                     </div>
                 </nav>
             </div>
