@@ -66,12 +66,12 @@ const Header = () =>{
                     </div>
                     <div className="flex flex-col sm:flex-row">
                         <Link className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="/">Home</Link>
-                        <Link className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="/shop">Clothing</Link>
-                        <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="#">Footwear</a>
-                        <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="#">Accessories</a>
-                        <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="#">Electronics</a>
-                        <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="#">Beautify</a>
-                        <a className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="#">Home & Living</a>
+                        <Link className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="/shop/clothing">Clothing</Link>
+                        <Link className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="/shop/footwear">Footwear</Link>
+                        <Link className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="/shop/accessories">Accessories</Link>
+                        <Link className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="/shop/electronics">Electronics</Link>
+                        <Link className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="/shop/beauty">Beauty</Link>
+                        <Link className="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="/shop/home-loving">Home & Living</Link>
                     </div>
                 </nav>
             </div>
